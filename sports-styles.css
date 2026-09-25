@@ -1,0 +1,44 @@
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th {
+  padding: 12px;
+  text-align: center;
+  background-color: black;
+  color: #fff;
+  border: 50px white;
+}
+
+.elder {
+  padding: 12px;
+  text-align: center;
+  background-color: #5c068c;
+  color: #fff;
+  border: 50px white;
+}
+
+.stx {
+  padding: 12px;
+  text-align: center;
+  background-color: royalblue;
+  color: white;
+  border: 20px white;
+}
+
+.lasalle {
+  padding: 12px;
+  text-align: center;
+  background-color: red;
+  color: black;
+  border: 20px white;
+}
+
+.moe {
+  padding: 12px;
+  text-align: center;
+  background-color: navy;
+  color: gold;
+  border: 20px white;
+}
