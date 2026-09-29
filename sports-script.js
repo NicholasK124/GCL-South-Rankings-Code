@@ -77,3 +77,23 @@ moeLossButton.addEventListener("click", function () {
 });
 
 const moeLoss = document.getElementById("moeAddLoss");
+
+/**
+ * Erase Rankings
+ */
+
+const eraseButton = document.getElementById("eraseRankings");
+
+eraseButton.addEventListener("click", function () {
+  elderWin.textContent = 0;
+  elderLoss.textContent = 0;
+
+  stxWin.textContent = 0;
+  stxLoss.textContent = 0;
+
+  lasalleWin.textContent = 0;
+  lasalleLoss.textContent = 0;
+
+  moeWin.textContent = 0;
+  moeLoss.textContent = 0;
+});
