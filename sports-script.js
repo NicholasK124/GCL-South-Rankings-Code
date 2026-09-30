@@ -244,3 +244,107 @@ eraseNorthRankings.addEventListener("click", function () {
   carrollWin.textContent = 0;
   carrollLoss.textContent = 0;
 });
+
+/**
+ * MVC Scarlet
+ */
+
+/**
+ * Elder Code
+ */
+
+const chcaWinButton = document.getElementById("chcaWin");
+
+chcaWinButton.addEventListener("click", function () {
+  chcaWin.textContent = Number(chcaWin.textContent) + 1;
+});
+
+const chcaWin = document.getElementById("chcaAddWin");
+
+const chcaLossButton = document.getElementById("chcaLoss");
+
+chcaLossButton.addEventListener("click", function () {
+  chcaLoss.textContent = Number(chcaLoss.textContent) + 1;
+});
+
+const chcaLoss = document.getElementById("chcaAddLoss");
+
+/**
+ * St X Code
+ */
+
+const summitWinButton = document.getElementById("summitWin");
+
+summitWinButton.addEventListener("click", function () {
+  summitWin.textContent = Number(summitWin.textContent) + 1;
+});
+
+const summitWin = document.getElementById("summitAddWin");
+
+const summitLossButton = document.getElementById("summitLoss");
+
+summitLossButton.addEventListener("click", function () {
+  summitLoss.textContent = Number(summitLoss.textContent) + 1;
+});
+
+const summitLoss = document.getElementById("summitAddLoss");
+
+/**
+ * LaSalle Code
+ */
+
+const purcellWinButton = document.getElementById("purcellWin");
+
+purcellWinButton.addEventListener("click", function () {
+  purcellWin.textContent = Number(purcellWin.textContent) + 1;
+});
+
+const purcellWin = document.getElementById("purcellAddWin");
+
+const purcellLossButton = document.getElementById("purcellLoss");
+
+purcellLossButton.addEventListener("click", function () {
+  purcellLoss.textContent = Number(purcellLoss.textContent) + 1;
+});
+
+const purcellLoss = document.getElementById("purcellAddLoss");
+
+/**
+ * Moeller Code
+ */
+
+const rbWinButton = document.getElementById("rbWin");
+
+rbWinButton.addEventListener("click", function () {
+  rbWin.textContent = Number(rbWin.textContent) + 1;
+});
+
+const rbWin = document.getElementById("rbAddWin");
+
+const rbLossButton = document.getElementById("rbLoss");
+
+rbLossButton.addEventListener("click", function () {
+  rbLoss.textContent = Number(rbLoss.textContent) + 1;
+});
+
+const rbLoss = document.getElementById("rbAddLoss");
+
+/**
+ * Erase Rankings
+ */
+
+const eraseMVCButton = document.getElementById("eraseMVCRankings");
+
+eraseMVCButton.addEventListener("click", function () {
+  chcaWin.textContent = 0;
+  chcaLoss.textContent = 0;
+
+  summitWin.textContent = 0;
+  summitLoss.textContent = 0;
+
+  purcellWin.textContent = 0;
+  purcellLoss.textContent = 0;
+
+  rbWin.textContent = 0;
+  rbLoss.textContent = 0;
+});

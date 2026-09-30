@@ -110,3 +110,47 @@ th {
   color: black;
   border: 20px white;
 }
+
+.chca {
+  padding: 12px;
+  text-align: center;
+  background-color: #2d0244;
+  color: #fff;
+  border: 50px white;
+  font-family: Bold;
+}
+
+.summit {
+  padding: 12px;
+  text-align: center;
+  background-color: rgb(0, 0, 53);
+  color: silver;
+  border: 20px white;
+  font-family: Bold;
+}
+
+.purcell {
+  padding: 12px;
+  text-align: center;
+  background-color: red;
+  color: gold;
+  border: 20px white;
+  font-family: Bold;
+}
+
+.rb {
+  padding: 12px;
+  text-align: center;
+  background-color: #31200f;
+  color: white;
+  border: 20px white;
+  font-family: Bold;
+}
+
+.eraseSouthRankings {
+  padding: 12px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  border: 20px white;
+}
