@@ -82,9 +82,9 @@ const moeLoss = document.getElementById("moeAddLoss");
  * Erase Rankings
  */
 
-const eraseButton = document.getElementById("eraseRankings");
+const eraseSouthButton = document.getElementById("eraseSouthRankings");
 
-eraseButton.addEventListener("click", function () {
+eraseSouthButton.addEventListener("click", function () {
   elderWin.textContent = 0;
   elderLoss.textContent = 0;
 
@@ -96,4 +96,151 @@ eraseButton.addEventListener("click", function () {
 
   moeWin.textContent = 0;
   moeLoss.textContent = 0;
+});
+
+/**
+ * GCL North
+ */
+
+/**
+ * Badin Code
+ */
+
+const badinWinButton = document.getElementById("badinWin");
+
+badinWinButton.addEventListener("click", function () {
+  badinWin.textContent = Number(badinWin.textContent) + 1;
+});
+
+const badinWin = document.getElementById("badinAddWin");
+
+const badinLossButton = document.getElementById("badinLoss");
+
+badinLossButton.addEventListener("click", function () {
+  badinLoss.textContent = Number(badinLoss.textContent) + 1;
+});
+
+const badinLoss = document.getElementById("badinAddLoss");
+
+/**
+ * McNick Code
+ */
+
+const mcnickWinButton = document.getElementById("mcnickWin");
+
+mcnickWinButton.addEventListener("click", function () {
+  mcnickWin.textContent = Number(mcnickWin.textContent) + 1;
+});
+
+const mcnickWin = document.getElementById("mcnickAddWin");
+
+const mcnickLossButton = document.getElementById("mcnickLoss");
+
+mcnickLossButton.addEventListener("click", function () {
+  mcnickLoss.textContent = Number(mcnickLoss.textContent) + 1;
+});
+
+const mcnickLoss = document.getElementById("mcnickAddLoss");
+
+/**
+ * Alter Code
+ */
+
+const alterWinButton = document.getElementById("alterWin");
+
+alterWinButton.addEventListener("click", function () {
+  alterWin.textContent = Number(alterWin.textContent) + 1;
+});
+
+const alterWin = document.getElementById("alterAddWin");
+
+const alterLossButton = document.getElementById("alterLoss");
+
+alterLossButton.addEventListener("click", function () {
+  alterLoss.textContent = Number(alterLoss.textContent) + 1;
+});
+
+const alterLoss = document.getElementById("alterAddLoss");
+
+/**
+ * Alter Code
+ */
+
+const fenwickWinButton = document.getElementById("fenwickWin");
+
+fenwickWinButton.addEventListener("click", function () {
+  fenwickWin.textContent = Number(fenwickWin.textContent) + 1;
+});
+
+const fenwickWin = document.getElementById("fenwickAddWin");
+
+const fenwickLossButton = document.getElementById("fenwickLoss");
+
+fenwickLossButton.addEventListener("click", function () {
+  fenwickLoss.textContent = Number(fenwickLoss.textContent) + 1;
+});
+
+const fenwickLoss = document.getElementById("fenwickAddLoss");
+
+/**
+ * Chaminade Julienne Code
+ */
+
+const chaminadeWinButton = document.getElementById("chaminadeWin");
+
+chaminadeWinButton.addEventListener("click", function () {
+  chaminadeWin.textContent = Number(chaminadeWin.textContent) + 1;
+});
+
+const chaminadeWin = document.getElementById("chaminadeAddWin");
+
+const chaminadeLossButton = document.getElementById("chaminadeLoss");
+
+chaminadeLossButton.addEventListener("click", function () {
+  chaminadeLoss.textContent = Number(chaminadeLoss.textContent) + 1;
+});
+
+const chaminadeLoss = document.getElementById("chaminadeAddLoss");
+
+/**
+ * Carroll Code
+ */
+
+const carrollWinButton = document.getElementById("carrollWin");
+
+carrollWinButton.addEventListener("click", function () {
+  carrollWin.textContent = Number(carrollWin.textContent) + 1;
+});
+
+const carrollWin = document.getElementById("carrollAddWin");
+
+const carrollLossButton = document.getElementById("carrollLoss");
+
+carrollLossButton.addEventListener("click", function () {
+  carrollLoss.textContent = Number(carrollLoss.textContent) + 1;
+});
+
+const carrollLoss = document.getElementById("carrollAddLoss");
+
+/**
+ * Erase North Button
+ */
+eraseNorthRankings.addEventListener("click", function () {
+  badinWin.textContent = 0;
+  badinLoss.textContent = 0;
+
+  mcnickWin.textContent = 0;
+  mcnickLoss.textContent = 0;
+
+  alterWin.textContent = 0;
+  alterLoss.textContent = 0;
+
+  fenwickWin.textContent = 0;
+  fenwickLoss.textContent = 0;
+
+  chaminadeWin.textContent = 0;
+  chaminadeLoss.textContent = 0;
+
+  carrollWin.textContent = 0;
+  carrollLoss.textContent = 0;
 });

@@ -619,11 +619,11 @@ The goal is:
 -   [x] Four teams
 -   [x] Starting records of 0--0
 -   [x] Table styling moved toward CSS
--   [ ] Elder "Add 1 Win" button
--   [ ] Elder "Add 1 Loss" button
--   [ ] St. Xavier buttons
--   [ ] La Salle buttons
--   [ ] Moeller buttons
+-   [x] Elder "Add 1 Win" button
+-   [x] Elder "Add 1 Loss" button
+-   [x] St. Xavier buttons
+-   [x] La Salle buttons
+-   [x] Moeller buttons
 -   [ ] Erase Rankings button
 -   [ ] Test entire application
 -   [ ] Refactor JavaScript

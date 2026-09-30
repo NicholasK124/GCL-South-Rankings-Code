@@ -7,11 +7,9 @@
     <link rel="stylesheet" href="sports-styles.css" />
   </head>
   <body>
-    <header><h1>GCL South Football Stats</h1></header>
+    <header><h1>GCL South Football Rankings</h1></header>
 
     <table>
-      GCL South Football Rankings
-      <thead>
         <tr>
           <th>Teams</th>
           <th>Wins</th>
@@ -58,8 +56,78 @@
         </tr>
       </tbody>
     </table>
-    <button id="eraseRankings"><h3>Erase Rankings</h3></button>
+    <button id="eraseSouthRankings">Erase GCL South Rankings</button>
 
-    <script src="sports-script.js"></script>
+    <header><h1>GCL North Football Rankings</h1></header>
+    <table>
+      <thead>
+        <tr>
+          <th>Teams</th>
+          <th>Wins</th>
+          <th>Losses</th>
+          <th>Actions</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="badin">
+          <td>Badin Rams</td>
+          <td id="badinAddWin">0</td>
+          <td id="badinAddLoss">0</td>
+          <td>
+            <button id="badinWin">Add 1 Win</button
+            ><button id="badinLoss">Add 1 Loss</button>
+          </td>
+        </tr>
+        <tr class="mcnick">
+          <td>McNicholas Rockets</td>
+          <td id="mcnickAddWin">0</td>
+          <td id="mcnickAddLoss">0</td>
+          <td>
+            <button id="mcnickWin">Add 1 Win</button
+            ><button id="mcnickLoss">Add 1 Loss</button>
+          </td>
+        </tr>
+        <tr class="alter">
+          <td>Archbishop Alter Knights</td>
+          <td id="alterAddWin">0</td>
+          <td id="alterAddLoss">0</td>
+          <td>
+            <button id="alterWin">Add 1 Win</button>
+            <button id="alterLoss">Add 1 Loss</button>
+          </td>
+        </tr>
+        <tr class="fenwick">
+          <td>Bishop Fenwick Falcons</td>
+          <td id="fenwickAddWin">0</td>
+          <td id="fenwickAddLoss">0</td>
+          <td>
+            <button id="fenwickWin">Add 1 Win</button
+            ><button id="fenwickLoss">Add 1 Loss</button>
+          </td>
+        </tr>
+        </tr>
+        <tr class="chaminade">
+          <td>Chaminade Julienne Eagles</td>
+          <td id="chaminadeAddWin">0</td>
+          <td id="chaminadeAddLoss">0</td>
+          <td>
+            <button id="chaminadeWin">Add 1 Win</button
+            ><button id="chaminadeLoss">Add 1 Loss</button>
+          </td>
+        </tr>
+        </tr>
+        <tr class="carroll">
+          <td>Carroll Patriots</td>
+          <td id="carrollAddWin">0</td>
+          <td id="carrollAddLoss">0</td>
+          <td>
+            <button id="carrollWin">Add 1 Win</button
+            ><button id="carrollLoss">Add 1 Loss</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <button id="eraseNorthRankings"><h3>Erase Rankings</h3></button>
   </body>
+  <script src="sports-script.js"></script>
 </html>
